@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    height: 15rem;
+}
+
+.primerdiv {
+    background-color: aquamarine;
+}
+
+.segundodiv {
+    background-color: black;
+}
+
+.tercerdiv {
+    background-color: brown;
+}
+
+.primerdiv,
+.tercerdiv {
+    width: 250px;
+}
+
+.segundodiv {
+    flex-grow: 1;
+}

@@ -1,0 +1,46 @@
+body {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-top {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    flex-grow: 1;
+}
+
+.contain-footer {
+    background-color: rgb(205, 182, 226);
+    height: 300px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.contain-top .menu {
+    background-color: rgb(216, 85, 177);
+    width: 200px;
+    align-content: stretch;
+}
+
+.contain-top .contain-mainaside {
+    background-color: bisque;
+    align-content: stretch;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contain-top .contain-mainaside .main {
+    background-color: azure;
+    align-content: stretch;
+    flex-grow: 0.66;
+}
+
+.contain-top .contain-mainaside .aside {
+    background-color: rgb(150, 219, 93);
+    align-content: stretch;
+    flex-grow: 0.33;
+}

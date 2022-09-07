@@ -1,0 +1,104 @@
+body {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contain-card {
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-card .contain-header {
+    background-color: bisque;
+    height: 100px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.contain-card .contain-header .foto {
+    background-color: rgb(233, 84, 91);
+    height: 100%;
+    width: 10%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contain-card .contain-header .icono {
+    background-color: rgb(233, 84, 91);
+    height: 100%;
+    width: 10%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contain-card .contain-header .nombre {
+    background-color: cornflowerblue;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.contain-card .contain-menu {
+    background-color: rgb(211, 81, 157);
+    margin: 10px;
+    height: 70%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.contain-card .contain-menu .perfil {
+    background-color: rgb(177, 83, 83);
+    width: 100%;
+    height: 20%;
+}
+
+.contain-card .contain-menu .contacto {
+    background-color: darkgrey;
+    width: 100%;
+    height: 20%;
+}
+
+.contain-card .contain-menu .tarjetas {
+    background-color: rgb(74, 211, 74);
+    width: 100%;
+    height: 20%;
+}
+
+.contain-card .contain-menu .redes {
+    background-color: rgb(211, 153, 208);
+    width: 100%;
+    height: 20%;
+}
+
+.contain-card .contain-menu .ajustes {
+    background-color: rgb(152, 230, 165);
+    width: 100%;
+    height: 20%;
+}
+
+.contain-card .contain-footer {
+    background-color: rgb(196, 255, 211);
+    height: 100px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain-card .contain-footer button {
+    background-color: rgb(177, 83, 83);
+    color: white;
+    border: black 3px solid;
+    width: 40%;
+    height: 60%;
+    justify-items: center;
+}
